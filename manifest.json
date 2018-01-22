@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  
+  "name": "Copy S3 Path",
+  "description": "An extension that copies a path to a bucket in S3 in Chrome",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "clipboardWrite",
+    "tabs"
+  ]
+
+}
